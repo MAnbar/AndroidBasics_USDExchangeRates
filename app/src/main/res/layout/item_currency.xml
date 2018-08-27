@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/cv"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        >
+
+
+        <TextView
+            android:layout_width="125dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/entry_rateName"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginRight="30dp"
+            android:textSize="25sp"
+            android:textColor="@color/blue"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/entry_rate"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/entry_rateName"
+            android:textSize="25sp"
+            />
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>
